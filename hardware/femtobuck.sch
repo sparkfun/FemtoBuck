@@ -18709,7 +18709,7 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 Use formula: I_led = V_thd / R_set
    V_thd = 0.1
 </text>
-<text x="238.506" y="6.604" size="3.81" layer="91">01</text>
+<text x="238.506" y="6.604" size="3.81" layer="91">10</text>
 <text x="153.924" y="6.35" size="3.81" layer="91">Mike Hord</text>
 </plain>
 <instances>

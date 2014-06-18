@@ -143,14 +143,13 @@
 <text x="3.81" y="33.401" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">VIN</text>
 <text x="6.35" y="33.401" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">DGND</text>
 <text x="8.128" y="33.401" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">CTRL</text>
-<text x="6.858" y="9.144" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="center-left">v01</text>
+<text x="6.858" y="9.144" size="1.27" layer="16" font="vector" ratio="15" rot="MR0" align="center-left">v10</text>
 <text x="2.032" y="24.003" size="1.6764" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">FemtoBuck</text>
 <text x="2.032" y="36.83" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">PGND</text>
 <text x="3.81" y="35.687" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">VIN</text>
 <text x="6.35" y="36.957" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">DGND</text>
 <text x="8.128" y="36.83" size="1.016" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">CTRL</text>
-<text x="4.826" y="27.94" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">6-36V 350mA
-CC LED Driver</text>
+<text x="3.937" y="28.448" size="0.8128" layer="22" font="vector" ratio="15" rot="SMR270" align="center-left">6-36V 350mA CC LED Driver</text>
 <text x="41.91" y="-20.32" size="1.778" layer="51" ratio="15">M. Hord</text>
 <wire x1="0" y1="37.465" x2="0" y2="36.83" width="0.2032" layer="20"/>
 <wire x1="0" y1="36.83" x2="0.254" y2="36.576" width="0.2032" layer="20"/>
@@ -178,8 +177,16 @@ CC LED Driver</text>
 <wire x1="8.89" y1="4.064" x2="9.906" y2="4.064" width="0.2032" layer="20"/>
 <wire x1="9.906" y1="4.064" x2="10.16" y2="3.81" width="0.2032" layer="20"/>
 <wire x1="10.16" y1="3.81" x2="10.16" y2="2.54" width="0.2032" layer="20"/>
-<text x="1.905" y="3.683" size="1.016" layer="21" font="vector" ratio="15">- LED +</text>
-<text x="8.255" y="3.683" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">+ LED -</text>
+<text x="1.905" y="2.54" size="1.016" layer="21" font="vector" ratio="15">- LED +</text>
+<text x="8.255" y="2.54" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">+ LED -</text>
+<text x="1.524" y="28.956" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">V-</text>
+<text x="4.191" y="28.956" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">V+</text>
+<text x="6.604" y="28.956" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">D-</text>
+<text x="9.017" y="28.956" size="1.27" layer="21" font="vector" ratio="15" align="bottom-center">D+</text>
+<text x="1.27" y="28.956" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">V-</text>
+<text x="3.937" y="28.956" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">V+</text>
+<text x="6.35" y="28.956" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">D-</text>
+<text x="8.763" y="28.956" size="1.27" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">D+</text>
 </plain>
 <libraries>
 <library name="SparkFun">
@@ -1843,10 +1850,4 @@ design rules under a new name.</description>
 </signals>
 </board>
 </drawing>
-<compatibility>
-<note version="6.3" minversion="6.2.2" severity="warning">
-Since Version 6.2.2 text objects can contain more than one line,
-which will not be processed correctly with this version.
-</note>
-</compatibility>
 </eagle>
