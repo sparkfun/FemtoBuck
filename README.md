@@ -1,10 +1,9 @@
 FemtoBuck LED Driver
 ===================
+-> [![alt text](https://cdn.sparkfun.com/assets/parts/9/8/6/4/12937-01.jpg)](https://cdn.sparkfun.com/assets/parts/9/8/6/4/12937-01.jpg) <-
+*FemtoBuck LED Driver (COM-12937)*](https://www.sparkfun.com/products/12937)
 
-[![FemtoBuck](https://)  
-*FemtoBuck LED Driver (COM-)*](https://www.sparkfun.com/products/)
-
-This breakout board allows you to dim a single high-power channel of LEDs from 0-350mA at up to 36V.
+This breakout board allows you to dim a single high-power channel of LEDs from 0-350mA at up to 36V. Dimming control can be either via PWM or via analog signal from 0-2.5V.
 
 Repository Contents
 -------------------
